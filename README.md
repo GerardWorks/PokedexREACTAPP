@@ -1,5 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-[LINK TO THE SITE](https://gerardworks.github.io/PokedexREACTAPP/)
+This project was bootstrapped with Create React App.
+[POKEDEX - LINK TO THE SITE](https://gerardworks.github.io/PokedexREACTAPP/)
 
 POKEMON - POKEDEX
 This was my experimentation with React, consuming an API and rendering to the DOM using stateless functional components.
