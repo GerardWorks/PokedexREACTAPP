@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "chart.js": "^1.1.1",
-    "react": "^15.5.4",
-    "react-bootstrap": "^0.31.0",
+    "react": "^15.6.2",
+    "react-bootstrap": "^0.31.5",
     "react-chartjs": "^0.8.0",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
@@ -16,7 +16,7 @@
     "babel-jest": "18.0.0",
     "babel-loader": "6.2.10",
     "babel-preset-react-app": "^2.2.0",
-    "babel-runtime": "^6.20.0",
+    "babel-runtime": "^6.26.0",
     "case-sensitive-paths-webpack-plugin": "1.1.4",
     "chalk": "1.1.3",
     "connect-history-api-fallback": "1.3.0",
@@ -34,7 +34,7 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "fs-extra": "0.30.0",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
@@ -54,7 +54,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -89,5 +89,4 @@
     "extends": "react-app"
   },
   "homepage": "https://gerardworks.github.io/PokedexREACTAPP"
-
 }
